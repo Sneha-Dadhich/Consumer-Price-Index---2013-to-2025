@@ -315,7 +315,7 @@ with tabs[3]:
         combined_df.index = pd.to_datetime(combined_df.index, format='%Y')  # Convert index to datetime
         st.line_chart(combined_df)  # Single chart with multiple lines
 
-=======
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
