@@ -1,0 +1,72 @@
+Title: Consumer Price Index (CPI) Data Analysis - 2013 to 2025
+
+Description:
+The project is an interactive web app for analyzing CPI trends, inflation rates, and price changes over time. Built with Streamlit, Pandas, and Matplotlib, it features visualizations of sector-wise, state-wise, and monthly CPI data. Users can compare inflation trends across regions and categories, gaining insights into economic patterns. 
+
+
+
+This Streamlit-based project visualizes and analyzes Consumer Price Index (CPI) data from 2013 to 2025, focusing on inflation trends across states, sectors, and categories. The approach includes:
+
+1. Data Preprocessing
+- Loads CPI data (cpi Group data.csv).
+- Handles missing values (* replaced with NaN).
+- Converts necessary columns (Inflation (%), Index) to numeric.
+- Fills missing values with the median in 'Inflation (%)' and 'Index' Column.
+- Converts categorical columns (BaseYear, Year) to strings.
+
+2. Streamlit UI Components
+- Tabs for Navigation: Four sections—Introduction, Static Data, Data Insights, and Comparison.
+- Introduction Tab: Displays dataset structure and key attributes.
+- Static Data Tab: Provides year-wise breakdown:
+   -- Year-wise category & sector distribution (Pie Charts).
+   -- Inflation trend analysis (Line Charts).
+- Data Insights Tab: Allows interactive exploration:
+Year-wise inflation trends per state (Bar Chart).
+   -- Month-wise inflation trends (Line Chart).
+   -- State-wise inflation analysis.
+- Comparison Tab: Multi-state comparison of inflation trends over time.
+
+3. Key Visualizations
+- Pie Charts: Breakdown of category and sector ratios.
+- Line Charts: Inflation trends over years for states, sectors, and categories.
+- Bar Charts: State-wise inflation trends.
+- Interactive Filters: Users can select specific years, states, and categories for analysis.
+
+Conclusion
+This project is a data-driven dashboard for analyzing inflation trends based on CPI data, enabling interactive exploration of trends across years, states, and consumption categories.
+
+
+
+Usability of CPI Analysis
+The CPI Analysis web application provides an interactive and visual approach to understanding Consumer Price Index (CPI) trends and inflation rates across different years, states, and economic sectors in India.
+
+Key Features & Usability:
+1). User-Friendly Interface:
+- Built with Streamlit, offering an intuitive and clean layout for seamless navigation.
+- Provides easy selection options for years, states, and economic groups to analyze trends.
+
+2). Data Insights & Exploration:
+- Displays static data such as base year, index values, and inflation percentages.
+- Enables users to explore state-wise and sector-wise inflation trends over time.
+
+3). Visual Representations:
+- Pie charts & bar graphs for category-wise and sector-wise distribution.
+- Line charts to track inflation trends over different periods.
+
+4). State & Sector Comparisons:
+- Allows multi-state inflation comparison to analyze regional disparities.
+- Helps in understanding the impact of inflation on different economic groups.
+
+5). Dynamic Filtering & Customization:
+- Users can select a specific state and year to view inflation and CPI trends.
+- Month-wise inflation breakdown enables seasonal trend analysis.
+
+6). Data Preprocessing & Cleaning:
+- Handles missing values and ensures accurate calculations.
+- Uses median imputation for missing CPI and inflation data.
+
+Use Cases:
+- Economic Research: Helps researchers analyze long-term inflation trends and economic patterns.
+- Policy Making: Useful for government and financial institutions to assess inflation impact.
+- Market & Business Analysis: Assists businesses in making data-driven pricing and investment decisions.
+- Educational Purpose: Aids students and academicians in understanding inflation dynamics.
