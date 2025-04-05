@@ -6,10 +6,3 @@ seaborn
 numpy
 
 
-=======
-streamlit==1.37.1
-pandas==2.2.2
-matplotlib==3.9.2
-seaborn
-numpy==2.1.0
->>>>>>> d6ff85e8ec4a49432ac76da7fd07f17f49e89aea
