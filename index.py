@@ -569,5 +569,4 @@ with tabs[3]:
         combined_df.index = pd.to_datetime(combined_df.index, format='%Y')  # Convert index to datetime
         st.line_chart(combined_df)  # Single chart with multiple lines
 
->>>>>>> d6ff85e8ec4a49432ac76da7fd07f17f49e89aea
     
